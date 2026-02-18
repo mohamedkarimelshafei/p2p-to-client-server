@@ -2,7 +2,7 @@ import asyncio
 import time
 
 TCP_MAIN = 9000       # main TCP client (heartbeat)
-TCP_FORWARD = 9001    # formerly UDP clients
+TCP_FORWARD = 9001
 BUFFER_SIZE = 4096
 HEARTBEAT_TIMEOUT = 2.0  # send heartbeat if idle > 2s
 
@@ -114,3 +114,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
