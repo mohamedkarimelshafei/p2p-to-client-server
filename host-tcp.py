@@ -7,7 +7,7 @@ REMOTE_IP = "mytv2.duckdns.org"
 REMOTE_PORT = 9000
 
 LOCAL_TCP_IP = "127.0.0.1"
-LOCAL_TCP_PORT = 6112
+LOCAL_TCP_PORT = 9001
 
 BUF_SIZE = 4096
 
@@ -97,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
